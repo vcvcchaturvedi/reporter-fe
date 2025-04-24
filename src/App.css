@@ -1,0 +1,52 @@
+#root {
+  height: 100vh;
+  margin: 0;
+  background-color: rgb(175, 175, 194);
+}
+
+.App {
+  line-height: 10px;
+  height: 100%;
+}
+
+.App-logo {
+  height: 5vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: transparent;
+  display: flex;
+  position: fixed;
+  top: 3px;
+  height: 5vh;
+  padding: 5px;
+  justify-content: start;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.leftSideBar {
+  display: flex;
+  position: fixed;
+  margin-top: 7vh;
+  min-width: 15vw;
+  flex-direction: column;
+  max-width: 40vw;
+  resize: horizontal;
+  gap: 5px;
+  height: 100%;
+}
+
+.mySQLIcon {
+  background: url("../public/resources/images/mysql-logo.svg");
+  width: 60px;
+  height: 40px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* Other styles here */
+}
